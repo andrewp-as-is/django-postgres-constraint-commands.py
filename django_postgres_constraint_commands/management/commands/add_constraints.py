@@ -45,7 +45,7 @@ ALTER TABLE ONLY public.%s
             if not model._meta.unique_together:
                 continue
             unique_together = model._meta.unique_together
-            if not any(isinstance(el, list) for el in model._meta.unique_together):
+            if not any(isinstance(el, (list,tuple)) for el in model._meta.unique_together):
                 unique_together = [model._meta.unique_together]
             for fieldnames in unique_together:
                 attnames = list(map(

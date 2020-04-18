@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='django-postgres-constraint-commands',
-    version='2020.4.16',
+    version='2020.4.19',
     install_requires=[
         'Django',
         'setuptools',
