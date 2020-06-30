@@ -1,14 +1,13 @@
 <!--
-https://pypi.org/project/readme-generator/
-https://pypi.org/project/python-readme-generator/
+https://readme42.com
 -->
 
-[![](https://img.shields.io/pypi/pyversions/django-postgres-constraint-commands.svg?longCache=True)](https://pypi.org/project/django-postgres-constraint-commands/)
+
 [![](https://img.shields.io/pypi/v/django-postgres-constraint-commands.svg?maxAge=3600)](https://pypi.org/project/django-postgres-constraint-commands/)
 [![](https://img.shields.io/badge/License-Unlicense-blue.svg?longCache=True)](https://unlicense.org/)
-[![Travis](https://api.travis-ci.org/andrewp-as-is/django-postgres-constraint-commands.py.svg?branch=master)](https://travis-ci.org/andrewp-as-is/django-postgres-constraint-commands.py/)
+[![](https://github.com/andrewp-as-is/django-postgres-constraint-commands.py/workflows/tests42/badge.svg)](https://github.com/andrewp-as-is/django-postgres-constraint-commands.py/actions)
 
-#### Installation
+### Installation
 ```bash
 $ [sudo] pip install django-postgres-constraint-commands
 ```
@@ -24,7 +23,7 @@ designed for Django projects with a large number of models:
 #### How it works
 define models foreign and unique keys, run command
 
-#### Settings
+##### `settings.py`
 ```python
 INSTALLED_APPS = [
     ...
@@ -68,5 +67,5 @@ class Model2(models.Model):
 ```
 
 <p align="center">
-    <a href="https://pypi.org/project/python-readme-generator/">python-readme-generator</a>
+    <a href="https://readme42.com/">readme42.com</a>
 </p>
